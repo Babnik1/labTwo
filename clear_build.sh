@@ -1,0 +1,1 @@
+cmake -B build . && cmake --build build && ./build/tests/unit_tests && rm -rf build Makefile CMakeCache.txt CMakeFiles
